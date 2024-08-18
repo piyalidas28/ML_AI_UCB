@@ -1,4 +1,4 @@
-# ML-CarPricePrediction
+# Used Car Price Prediction
 ![Kurt](https://github.com/tildahh/ML-CarPricePrediction/blob/main/images/kurt.jpeg)
 
 This project explores a dataset containing details on over 426,000 used cars with the goal of identifying factors that significantly impact car prices. By leveraging machine learning algorithms, we aim to predict car prices based on key features such as mileage, year, and brand.
