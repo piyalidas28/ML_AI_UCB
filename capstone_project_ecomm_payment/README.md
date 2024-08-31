@@ -1,5 +1,5 @@
 # Ecommerce payment method analysis
-Notebook: https://github.com/piyalidas28/ML_AI_UCB/blob/main/capstone_project_ecomm_payment/ecomm.ipynb
+[Link to Notebook](https://github.com/piyalidas28/ML_AI_UCB/blob/main/capstone_project_ecomm_payment/ecomm.ipynb)
 
 ## Description
 Payment instrument is a crucial part of shopping online and can provide crucial insights for multiple purposes:
@@ -146,7 +146,10 @@ Feature importance analysis shows that payment related fields are the most impor
 * explore neural network to see if it improves the performance of the model
 * Improve efficiency of the models, specifically Logistic regression and Gradient boosting probably by further fine tuning hyperparameters
 
+## Contact and further information
+Email (piyalidas.iitkgp@gmail.com)
 
+[LinkedIn](https://www.linkedin.com/in/piyalidas2890)
 
 
 
