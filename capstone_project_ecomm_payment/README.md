@@ -128,7 +128,9 @@ This is a multi-class classification problem. The target feature (payment_type) 
 Feature importance analysis shows that payment related fields are the most important, followed by product category, seller, location and then other features.
 ![image](https://github.com/user-attachments/assets/29f363d1-5730-49f7-9f3b-37e45bd9ee5a)
 
-## Business recommendation
+## Findings and Business recommendation
+* The choice of payment method is often influenced by the price of the item and associated features followed by the product category and seeler
+  * Find additional links between price value, specific products, and payment types.
 * Deploy the prediction model to use it in production for one or more of the use cases mentioned above
 * Improve data quality
   * More granular payment type data. There can be further multiple types of payment instruments to be used
