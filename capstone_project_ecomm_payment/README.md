@@ -128,15 +128,22 @@ This is a multi-class classification problem. The target feature (payment_type) 
 Feature importance analysis shows that payment related fields are the most important, followed by product category, seller, location and then other features.
 ![image](https://github.com/user-attachments/assets/29f363d1-5730-49f7-9f3b-37e45bd9ee5a)
 
-## Next steps
-I propose to
-* further iterate over this dataset by adding new features and also removing strongly correlated features (de-duplicating payment related features)
+## Business recommendation
+* Deploy the prediction model to use it in production for one or more of the use cases mentioned above
+* Improve data quality
+  * More granular payment type data. There can be further multiple types of payment instruments to be used
+  * Get more data for other (non-toy) types of product categories and improve the granularity there as well
+* Setup feedback loop to continuously improve the model based on better data and user feedback
+
+## Technical recommendation
+* Feature engineering
+  * Add new features
+  * De-duplicate strongly correlated features (for ex. payment related features)
 * try the other approach to drop the columns missing in test dataset from training dataset and use both the sets of datasets in your analysis
 * try to fetch data in the test dataset as well
 * explore neural network to see if it improves the performance of the model
-* Improve efficiency of the models, specifically Logistic regression and Gradient boosting
-* Deploy the model for realtime prediction in one of the use cases discussed above
-* Setup a feedback loop to continuously improve the model
+* Improve efficiency of the models, specifically Logistic regression and Gradient boosting probably by further fine tuning hyperparameters
+
 
 
 
